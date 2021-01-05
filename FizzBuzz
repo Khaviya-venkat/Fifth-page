@@ -1,0 +1,12 @@
+for Number in range(1,100):
+    if Number % 3 == 0 and Number % 5 == 0:
+        print("fizzbuzz")
+        continue
+    elif Number % 3 == 0:
+        print("fizz")
+        continue
+    elif Number % 5 == 0:
+        print("buzz")
+        continue
+    
+    print(Number)
